@@ -6,8 +6,9 @@ jobs:
   explain:
     runs-on: ubuntu-latest
     steps:
-      - name: Start
+       name: Start
         run: echo "Step 1 - Start"
+
 
       - name: Get date
         run: date
